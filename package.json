@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-typescript-mocha-chai-travis",
+  "version": "1.0.0",
+  "description": "just a try with nodeJs, typeScript, mocha and chai",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers ts:ts-node/register ./test/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lionelrepellin/nodejs-typescript-mocha-chai-travis.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "mocha",
+    "chai",
+    "travis"
+  ],
+  "author": "Lionel Repellin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lionelrepellin/nodejs-typescript-mocha-chai-travis/issues"
+  },
+  "homepage": "https://github.com/lionelrepellin/nodejs-typescript-mocha-chai-travis#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^2.2.46",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}
